@@ -1,3 +1,15 @@
-.zig-cache/
+# Zig build artifacts
+zig-cache/
 zig-out/
+**/zig-cache/
+**/zig-out/
+
+# Compiled stuff
 *.o
+*.obj
+*.jar
+
+# IDE/editor noise (optional)
+.vscode/
+.idea/
+.DS_Store
